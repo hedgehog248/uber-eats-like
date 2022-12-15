@@ -11,7 +11,7 @@ export const restaurantsActionTypes = {
 }
 
 export const restaurantsReducer = (state, action) => {
-  switch (action.types) {
+  switch (action.type) {
     case restaurantsActionTypes.FETCHING:
       return {
         ...state,
