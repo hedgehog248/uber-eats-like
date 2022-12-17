@@ -5,11 +5,11 @@
     time_required: 10,
   )
 
-  12.times do |i|
+  12.times do |m|
     restaurant.foods.build(
-      name: "フード名_#{n}",
+      name: "フード名_#{m}",
       price: 500,
-      description: "フード_#{n}の説明文です。"
+      description: "フード_#{m}の説明文です。"
     )
   end
 
