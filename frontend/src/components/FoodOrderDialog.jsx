@@ -54,7 +54,7 @@ export const FoodOrderDialog = ({
   onClose,
   onClickCountUp,
   onClickCountDown,
-  onClickOeder,
+  onClickOrder,
 }) => {
   return (
     <Dialog
@@ -94,7 +94,7 @@ export const FoodOrderDialog = ({
             />
           </CountItem>
         </CountersWrapper>
-        <OrderButton onClick={() => onClickOeder()}>
+        <OrderButton onClick={() => onClickOrder()}>
           <OrderTextWrapper>
             <OrderButtonTextWrapper>
               {`${countNumber}点を注文に追加`}
